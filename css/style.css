@@ -114,11 +114,17 @@ body.dark-theme{
     gap: var(--mb-0-75);
 }
 
+.theme__toggle{
+    font-size: var(--h3-font-size);
+    cursor: pointer;
+    margin-right: 2rem;
+}   
+
 .change-theme{
     font-size: 1.25rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .change-theme:hover{
@@ -293,6 +299,7 @@ img{
 
 .nav__list{
     grid-template-columns: repeat(3, 1fr);
+    margin: 0;
     gap: 2rem;
 }
 
@@ -1528,10 +1535,16 @@ form textarea{
 
     #home{
         height: 85vh;
+        margin-left: -4rem;
+    }
+
+    .home__data{
+        transform: translateX(-6rem);
     }
 
     .home__social{
-        transform: translateX(-3rem);
+        
+        transform: translateX(-4rem);
     }
 
     .contact__form{
