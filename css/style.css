@@ -402,7 +402,7 @@ img{
     width: 600px;
     align-content: center;
     text-align: center;
-    transform: translateX(-4rem);
+    /* transform: translateX(-4rem); */
 }
 
 .home__welcome{
@@ -1337,6 +1337,10 @@ form textarea{
         margin-top: var(--mb-0-25);
     }
 
+    .home__data{
+        transform: translateX(-0.5rem);
+    }
+
     .home__scroll-mouse{
         margin-top: var(--mb-0-25);
     }
@@ -1347,6 +1351,10 @@ form textarea{
 
     .qualification__data{
         gap: 0.5rem;
+    }
+
+    .qualification__start-icon{
+        transform: translateY(1.2rem);
     }
 
     .contact_mail{
@@ -1374,6 +1382,7 @@ form textarea{
     }
     .home__data{
         grid-column: initial;
+        transform: translateX(-1rem);
     }
 
     .about__container,
