@@ -770,9 +770,9 @@ img{
     margin-top: var(--mb-0-5);
     justify-content: flex-end;
     background-color: transparent;
-    /* border-radius: auto; */
+    border-radius: auto;
     margin-left: 15px;
-    /* transform: translateX(15px, 10px); */
+    transform: translateX(15px, 10px);
 }
 
 .qualification__start-icon{

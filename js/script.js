@@ -67,7 +67,7 @@ console.log("remove menu profile is working!")
 // TypeWriter Effect
 // var animatedText = document.getElementById('Typewriter')
 new Typewriter('#typewriter', {
-  strings: ['Camilo Palacio', 'Systems engineer student', 'Developer'], //
+  strings: ['Camilo Andrés Palacio Mier', 'Systems engineer student', 'Developer'], //
   autoStart: true,
   loop: true,
   cursor: "|"
